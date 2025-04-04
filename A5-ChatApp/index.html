@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat app</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>.chat-message {
+        @apply text-white p-2 rounded-xl max-w-[80%];
+    }
+    .sender {
+        @apply self-end bg-[#47a3f3];
+    }
+    .receiver {
+        @apply self-start bg-[#52606d];
+    }
+    </style></style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex justify-center items-center h-screen bg-gray-900">
+    <div class="wrapper w-96 h-screen text-white">
+      <div class="chat-header bg-[#323f4b] py-4 text-center text-lg font-bold">
+        Rahul
+      </div>
+      <div class="chat-message-container p-4 flex flex-col gap-5">
+        <div class="p-2 rounded-tl-xl rounded-tr-xl rounded-bl-xl text-end bg-[#47a3f3]">Hello Rahul, how are you?</div>
+        <div class="bg-[#52606d] text-white p-2 rounded-tl-xl rounded-br-xl rounded-tr-xl ">Hi Varakumar, I am good. How about you?</div>
+        <div class="text-white p-2 rounded-tl-xl rounded-tr-xl rounded-bl-xl text-end bg-[#47a3f3]">I'm fine. I published my website recently</div>
+        <div class="bg-[#52606d] text-white p-2 rounded-tl-xl rounded-br-xl rounded-tr-xl">Oh great Varakumar! Can you send me the URL?</div>
+        <div class="text-white p-2 rounded-tl-xl rounded-tr-xl rounded-bl-xl text-end bg-[#47a3f3]">https://varakumar.ccbp.tech</div>
+        <div class="bg-[#52606d] text-white p-2 rounded-tl-xl rounded-br-xl rounded-tr-xl">Awesome Varakumar, where did you learn?</div>
+        <div class="text-white p-2 rounded-tl-xl rounded-tr-xl rounded-bl-xl text-end bg-[#47a3f3]">NxtWave CCBP 4.0 Program</div>
+    </div>
+  </body>
+</html>
