@@ -26,7 +26,8 @@ attributes
 
 5. What is Html Entries and Why is it need in HTML ?
 <br>
-html entries are specific set of keywords used for representing complicated symbols which are not present in the keyboard . 
+html entries are specific set of keywords used for representing complicated symbols 
+They are used for representing symbols which are not present in the keyboard . 
 
 
 6. What are meta tag and why is it used ? 
